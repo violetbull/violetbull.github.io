@@ -296,5 +296,5 @@ defaults:
 sidebar-category:
   -title: "카테고리1"
     children:
-      -title: "서브카테고리1"
+      -title: "서브카테고리11"
         url: "/category1"
