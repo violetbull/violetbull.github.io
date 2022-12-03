@@ -23,7 +23,7 @@ name                     : "Administrator"
 description              : "윈도우10, 윈도우11, 아이폰, 안드로이드 PC 및 스마트폰 활용 및 팁 기술, 각종 게임 정보"
 url                      : "https://violetbull.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "violetbull/violetbull.github.io"
+repository               : # "violetbull/violetbull.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -290,11 +290,3 @@ defaults:
       comments: true
       share: true
       related: true
-    sidebar:
-      nav: "sidebar-category"
-
-sidebar-category:
-  -title: "카테고리1"
-    children:
-      -title: "서브카테고리11"
-        url: "/category1"
