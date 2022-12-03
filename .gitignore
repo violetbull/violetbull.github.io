@@ -27,3 +27,8 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
